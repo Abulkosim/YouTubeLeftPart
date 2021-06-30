@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  font-family: 'Anton', sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
+
+.container {
+  width: 240px;
+  
+}
+
+.container i {
+  float: left;
+}
+
+.container p {
+  margin-left: 40px;
+}
+
+.container #youtube-icon {
+  margin-right: 0;
+}
+
+.clr {
+  clear: left;
+}
+
+.first-part,
+.second-part,
+.third-part {
+  font-size: 16px;
+  color:#030303;
+  border-bottom: 0.5px solid #e5e5e5;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.first-part h2 {
+  font-size: 18px;
+}
+#hamburger {
+  margin-left: 10px;
+  margin-right: 25px;
+}
+a {
+  color: rgb(80, 78, 78);
+  text-decoration: none;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.red-hover:active {
+  color: #ff0000;
+}
+.first-part a {
+  display: block;
+  padding: 5px 15px;
+}
+
+.second-part a,
+.third-part a {
+  display: block;
+  padding: 11px 20px;
+}
+
+.second-part a:hover,
+.third-part a:hover {
+  background-color: #eeeeee;
+}
+
+.second-part a:active,
+.third-part a:active {
+  background-color: #e5e5e5;
+}
